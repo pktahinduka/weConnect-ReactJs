@@ -5,6 +5,7 @@ import AddBusiness from 'views/AddBusiness/AddBusiness';
 import MyBusinesses from 'views/MyBusinesses/MyBusinesses';
 import EditBusiness from 'views/EditBusiness/EditBusiness';
 import Register from 'views/Register/Register';
+import Home from 'views/Home/Home';
 import Business from 'views/Business/Business';
 
 const appRoutes = [
@@ -14,6 +15,7 @@ const appRoutes = [
     { path: "/addBusiness", name: "Items", icon: "pe-7s-user", component: AddBusiness },
     { path: "/myBusinesses", name: "Items", icon: "pe-7s-user", component: MyBusinesses },
     { path: "/editBusiness", name: "Items", icon: "pe-7s-user", component: EditBusiness },
+    { path: "/home", name: "Items", icon: "pe-7s-user", component: Home },
     { path: "/Business", name: "Items", icon: "pe-7s-user", component: Business },
     { path: "/register", name: "Register", icon: "pe-7s-user", component: Register},
     { redirect: true, path: "/", to: "/login", name: "User Login" }
