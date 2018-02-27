@@ -62,7 +62,7 @@ class Register extends Component{
       });
       window.localStorage.setItem('authToken', res.data.auth_token);
       window.localStorage.setItem('username', res.data.username);
-      this.props.history.push('/user');
+      this.props.history.push('/home');
     })
     .catch((err) => { console.log(err); });
 
