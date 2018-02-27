@@ -66,7 +66,7 @@ class Login extends Component{
         isAuthenticated: true,
       });
       window.localStorage.setItem('authToken', res.data.auth_token);
-      this.props.history.push('/login');
+      this.props.history.push('/home');
     })
     .catch((err) => { console.log(err); });
 
